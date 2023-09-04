@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: white;
+}
+/* NAV */
+.nav{
+    background-color: #111827;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(170, 172, 175) !important; 
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.exp{
+    font-size: 50px;
+}
+.expo{
+    font-size: 18px;
+    color: #C3C3C3;
+}
+
+.form-text{
+    color: #C3C3C3;
+}
+
+/* HEADER */
+
+header{
+    background-color: #111827;
+    color: white;  
+    padding: 0;
+    margin: 0;  
+}
+
+.w-full {
+    width: 100%;
+    height: auto;    
+}
+
+.INICIO{
+    background-color: #111827;
+    color: white; 
+    
+}
+
+/* CARDS */
+.rounded-full{
+    border-radius: 50%;
+}
+
+/* SECCION VAMOS */
+.VAMOS{
+    text-align: justify;
+    background-color: #111827;
+    color: white;
+}
+
+
+
+/* FOOTER */
+.icon-link{
+    color: #424856;
+}
+
+.text-reset:hover{
+    color: rgb(170, 172, 175) !important;
+}
+
+.icon-link:hover{
+    color: rgb(170, 172, 175) !important;
+}
+
+@media(max-width: 576px){
+.VAMOS-text{
+    margin-right: 50px;
+}
+}
